@@ -343,45 +343,135 @@ nav {
 
 }
 
-.Program .banner ul li {
-    display: inline-block;
-    width: 230px;
-    height: 390px;
-    background-color: red;
-
-}
 
 .Program .nav {
     margin-bottom: 23px;
 }
 
-.Program h4 {
-
+.Program .nav h4 {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 23px;
     color: #494949;
 }
 
-.Program span a {
+.Program .nav span a {
     color: #868686;
 }
 
-.Program span:nth-of-type(1) {
+.Program .nav span:nth-of-type(1) {
     margin-left: 353px;
     color: #868686;
 }
 
 
-.Program span:nth-of-type(n+2) {
+.Program .nav span:nth-of-type(n+2) {
     margin-left: 72px;
     color: #868686;
 }
 
-.Program span:nth-last-of-type(1) {
+.Program .nav span:nth-last-of-type(1) {
     margin-top: 40px;
     float: right;
     color: #868686;
 }
+
+.Program .banner2 {
+    height: 392px;
+
+}
+
+.Program .banner2 ul li:nth-of-type(1) {
+    float: left;
+    width: 230px;
+    height: 392px;
+    margin-right: 12px;
+
+}
+
+.Program .banner2 ul li:nth-of-type(n+3) {
+    float: left;
+    margin-top: 16px;
+    margin-right: 16px;
+    width: 227px;
+    height: 270px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 5px #C7C9CB;
+}
+
+
+.Program .banner ul li:nth-of-type(2) {
+    margin-bottom: 25px;
+}
+
+.Program .banner2 ul li:nth-of-type(6) {
+    margin-right: 0;
+}
+
+.Program .banner2 ul li:nth-of-type(n+3) h5 {
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #4D4D4D;
+}
+
+.Program .banner2 ul li:nth-of-type(n+3) h6 {
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #A4A4A4;
+}
+
+.Program .banner2 ul li:nth-of-type(n+3) h6 span {
+    color: #FF9F66;
+}
+
+/*牛人推荐板块*/
+.Re-bd a {
+
+    display: inline-block;
+    margin: 23px 0 23px 0;
+    font-weight: 800;
+    color: #494949;
+}
+
+.Re-bd .Re-box ul li:nth-of-type(-n+5) {
+    float: left;
+    width: 230px;
+    height: 319px;
+    margin-right: 12px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: -5px -13px;
+}
+
+.Re-bd .Re-box ul li {
+    position: relative;
+}
+
+.Re-box ul li img {
+    width: 248px;
+    height: 330px;
+    position: absolute;
+    top: -11px;
+    left: -4px;
+    z-index: 0;
+
+}
+
+.Re-bd .Re-box ul li:nth-of-type(1)::after {
+    content: "";
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: rgba(0, 0, 0, .3)
+    z-index: 0;
+}
+
+.Re-bd .Re-box ul li:nth-of-type(5) {
+    margin-right: 0;
+}
+
 
 /* 页面底部分 */
 footer {
