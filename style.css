@@ -5,6 +5,7 @@
 }
 
 ul {
+
     list-style: none; /* 去掉列表样式小点 */
 }
 
@@ -31,10 +32,10 @@ input {
     box-sizing: border-box; /* CSS3盒子模型 border 和 padding 都包含到 width 里面去 */
 }
 
-.container { /* 因为我们的版心宽度都是1200 都要居中对齐 我们就声明一个公共类 */
+.container {
     width: 1200px;
     margin: 0 auto;
-}
+}/* 因为我们的版心宽度都是1200 都要居中对齐 我们就声明一个公共类 */
 
 /* css初始化结束 */
 /* 页面头部分 */
@@ -399,7 +400,6 @@ nav {
     box-shadow: 0 4px 5px #C7C9CB;
 }
 
-
 .Program .banner ul li:nth-of-type(2) {
     margin-bottom: 25px;
 }
@@ -456,7 +456,6 @@ nav {
 .Re-bd .Re-box ul li {
     position: relative;
 }
-
 
 .Re-bd .Re-box .Mask {
     top: 200px;
@@ -591,4 +590,4 @@ footer {
     color: #00a4ff;
     text-decoration: underline; /*  添加下划线 */
 }
-			
+
